@@ -1,0 +1,41 @@
+<div class="group_1 column">
+  <h6 class="h6">Dashboards</h6>
+  <igx-list class="list">
+    <igx-list-item [isHeader]="false" class="list-item">
+      <span igxListLineTitle>Dashboards</span>
+      <span igxListAction>
+        <igx-icon family="material" class="icon_1">dashboard</igx-icon>
+      </span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" class="list-item">
+      <span igxListLineTitle>Favorites</span>
+      <span igxListAction>
+        <igx-icon family="material" class="icon_1">star</igx-icon>
+      </span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" class="list-item">
+      <span igxListLineTitle>Recent</span>
+      <span igxListAction>
+        <igx-icon family="material" class="icon">access_time</igx-icon>
+      </span>
+    </igx-list-item>
+    <igx-list-item [isHeader]="false" class="list-item">
+      <span igxListLineTitle>Samples</span>
+      <span igxListAction>
+        <igx-icon family="material" class="icon_1">ballot</igx-icon>
+      </span>
+    </igx-list-item>
+  </igx-list>
+</div>
+<div class="group_2 column">
+  <div class="group row">
+    <h5 class="h5">Recent</h5>
+    <button igxButton="raised" igxRipple routerLink="/dashboards" class="button">GO BACK</button>
+  </div>
+  <div class="group_3 row">
+    <button igxButton="fab" igxRipple class="button_1">
+      <igx-icon>add</igx-icon>
+    </button>
+    <img class="image" />
+  </div>
+</div>
